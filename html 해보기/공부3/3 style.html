@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>선택자 우선순위</title>
+        <style>
+            p{color:blue}
+            .a{color: red}
+            #b{color: purple}
+        </style>
+    </head>
+    <body>
+        <p>태그(파랑)</p>
+        <p class="a">빨강</p>
+        <p class="a" id="b">보라</p>
+        <p class="a" id="b" style="color:aqua;">아쿠아</p>
+    </body>
+</html>
